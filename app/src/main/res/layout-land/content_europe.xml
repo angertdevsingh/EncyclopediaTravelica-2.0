@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Europe"
+    tools:showIn="@layout/activity_asia">
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/asiaSpinner"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Capital City"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/asiaSpinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp"
+        android:textColor="#723535"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/asiaCapitalTV"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Currency"
+        android:id="@+id/adsf"
+        android:layout_below="@+id/asiaCapitalTV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="37dp"
+        android:textColor="#723535"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/asiaCurrencyTV"
+        android:layout_below="@+id/adsf"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Language"
+        android:id="@+id/textview12"
+        android:textColor="#723535"
+        android:textStyle="bold"
+        android:layout_marginLeft="69dp"
+        android:layout_marginStart="69dp"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_toRightOf="@+id/asiaCapitalTV"
+        android:layout_toEndOf="@+id/asiaCapitalTV" />
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/asiaLanguageTV"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textview12"
+        android:layout_alignStart="@+id/textview12" />
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tourist Visa"
+        android:id="@+id/textView4"
+        android:textColor="#723535"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/adsf"
+        android:layout_alignLeft="@+id/asiaLanguageTV"
+        android:layout_alignStart="@+id/asiaLanguageTV" />
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/asiaVisaTV"
+        android:layout_alignTop="@+id/asiaCurrencyTV"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+</RelativeLayout>
